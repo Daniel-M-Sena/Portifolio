@@ -98,8 +98,8 @@ export function Hero() {
               </button>
 
               <a
-                href="/cv/Daniel-Martins-CV.pdf"
-                download="Daniel-Martins-CV.pdf"
+                href="/cv/CURRICULUM_VITAE_DANIEL_MARTINS.pdf"
+                download="CURRICULUM_VITAE_DANIEL_MARTINS.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 border-2 border-[#4DA3FF] text-white rounded-full hover:bg-[#4DA3FF]/10 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
