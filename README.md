@@ -1,7 +1,5 @@
 
-  # Modern UI/UX Portfolio Website
-
-  This is a code bundle for Modern UI/UX Portfolio Website. The original project is available at https://www.figma.com/design/O5mlRFRtmPGpprPKoIoMQu/Modern-UI-UX-Portfolio-Website.
+  #Portfolio Website
 
   ## Running the code
 
