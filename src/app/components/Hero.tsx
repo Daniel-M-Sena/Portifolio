@@ -36,7 +36,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="container mx-auto px-6 relative z-10 flex items-center min-h-screen">
-        <div className="grid md:grid-cols-2 gap-10 md:gap-12 items-center w-full max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 items-center w-full max-w-6xl mx-auto">
           {/* Left */}
           <motion.div
             className="flex flex-col justify-center text-center md:text-left"
@@ -54,16 +54,16 @@ export function Hero() {
             </motion.p>
 
             <motion.h1
-              className="mb-6 flex flex-col md:flex-row items-center md:items-baseline gap-2 md:gap-3 text-center md:text-left"
+              className="mb-6 flex flex-wrap items-baseline gap-3 justify-center md:justify-start"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <span className="text-2xl sm:text-3xl md:text-3xl font-medium text-white">
+              <span className="text-4xl md:text-3xl font-medium text-white">
                 Daniel Martins
               </span>
 
-              <span className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-[#4DA3FF] leading-tight">
+              <span className="text-5xl md:text-6xl font-extrabold text-[#4DA3FF]">
                 Designer Gráfico
               </span>
             </motion.h1>
@@ -71,7 +71,7 @@ export function Hero() {
 
 
             <motion.p
-              className="text-gray-300 text-base sm:text-lg mb-8 max-w-md mx-auto md:mx-0 leading-relaxed"
+              className="text-gray-300 text-lg mb-8 max-w-xl mx-auto md:mx-0 leading-relaxed"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
@@ -82,7 +82,7 @@ export function Hero() {
             </motion.p>
 
             <motion.div
-              className="flex flex-col sm:flex-row justify-center md:justify-start gap-4"
+              className="flex flex-wrap justify-center md:justify-start gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7 }}
