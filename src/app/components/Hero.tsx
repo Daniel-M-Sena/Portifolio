@@ -98,8 +98,8 @@ export function Hero() {
               </button>
 
               <a
-                href="/cv/CURRICULUM-VITAE-DANIEL-MARTINS.pdf"
-                download="CURRICULUM-VITAE-DANIEL-MARTINS.pdf"
+                href="/cv/Daniel-Martins-CV.pdf"
+                download="Daniel-Martins-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 border-2 border-[#4DA3FF] text-white rounded-full hover:bg-[#4DA3FF]/10 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
@@ -114,4 +114,27 @@ export function Hero() {
           <motion.div
             className="relative flex justify-center mt-10 md:mt-0"
             initial={{ opacity: 0, x: 50, scale: 0.85 }}
-            a
+            animate={{ opacity: 1, x: 0, scale: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+            <motion.div
+              className="relative z-10"
+              animate={{ y: [0, -20, 0] }}
+              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <div className="relative w-[260px] md:w-[300px] rounded-4xl overflow-hidden">
+                <ImageWithFallback
+                  src="/imagens/daniel.png"
+                  alt="Foto de Daniel Martins"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </motion.div>
+
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#4DA3FF]/20 to-[#6EB6FF]/20 blur-3xl -z-10" />
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}
