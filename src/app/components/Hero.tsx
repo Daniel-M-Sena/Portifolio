@@ -59,11 +59,11 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <span className="text-2xl md:text-3xl font-medium text-white">
+              <span className="text-4xl md:text-3xl font-medium text-white">
                 Daniel Martins
               </span>
 
-              <span className="text-3xl md:text-6xl font-extrabold text-[#4DA3FF]">
+              <span className="text-5xl md:text-6xl font-extrabold text-[#4DA3FF]">
                 Designer Gráfico
               </span>
             </motion.h1>
